@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clovers.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+<!-- HEADER HEADER HEADER -->
+    <header class="navigation">   
+        <!-- ICON FOR MOBILE MENU  ICON  ICON  ICON  ICON  ICON  ICON -->
+        <input type="checkbox" id="menuToggle" hidden>
+        <label for="menuToggle" class="menu-icon">☰</label>
+        <!-- ICON FOR MOBILE MENU  ICON  ICON  ICON  ICON  ICON  ICON -->
+
+        <h1 class="clovers"><a href="index.html">Clovers.</a></h1>     
+        
+        <nav class="menu">
+            <a href="sales.html">Deals</a>
+            <a href="filter.html">All</a>
+
+            <div class="categories">
+
+                 <span>Categories ▾</span>
+
+                <ul class="hovermenu">
+                    <li><a href="#">Dairy</a></li>
+                    <li><a href="#">Meat</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fruit</a></li>
+                    <li><a href="#">Seasoning</a></li>
+                    <li><a href="#">Beverages</a></li>
+                </ul>
+
+            </div>
+        </nav>   
+
+        <form action="search.html" class="search">
+            <input type="search" placeholder="Looking for..." required>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            </button>
+        </form>
+
+        <nav class="icons">
+
+            <a href="#locations">
+                <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 -960 960 960" width="27px" fill="#e3e3e3"><path d="M480-284.33q105.67-82 159.5-164.34Q693.33-531 693.33-598q0-94.67-59.66-155Q574-813.33 480-813.33q-94 0-153.67 60.33-59.66 60.33-59.66 155 0 66.33 53.83 148.67 53.83 82.33 159.5 165Zm0 84.33Q338.33-303.33 269.17-404.67 200-506 200-598q0-123.67 78.33-202.83Q356.67-880 480-880q123.33 0 201.67 79.17Q760-721.67 760-598q0 92-69.17 193.33Q621.67-303.33 480-200Zm-.67-320q33.67 0 57.17-23.5T560-600q0-33-23.5-56.5T479.33-680q-33 0-56.16 23.5Q400-633 400-600t23.17 56.5q23.16 23.5 56.16 23.5ZM200-80v-66.67h560V-80H200Zm280-520Z"/></svg>
+            </a>
+            <a href="contact.html">
+                <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 -960 960 960" width="27px" fill="#e3e3e3"><path d="M240-399.33h315.33V-466H240v66.67ZM240-526h480v-66.67H240V-526Zm0-126.67h480v-66.66H240v66.66ZM80-80v-733.33q0-27 19.83-46.84Q119.67-880 146.67-880h666.66q27 0 46.84 19.83Q880-840.33 880-813.33v506.66q0 27-19.83 46.84Q840.33-240 813.33-240H240L80-80Zm131.33-226.67h602v-506.66H146.67v575l64.66-68.34Zm-64.66 0v-506.66 506.66Z"/></svg>
+            </a>
+            <a href="registration.html">
+                <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 -960 960 960" width="27px" fill="#e3e3e3"><path d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z"/></svg>
+            </a>
+
+            <label for="cartToggle" class="cart">
+                <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 -960 960 960" width="27px" fill="#e3e3e3"><path d="M284.53-80.67q-30.86 0-52.7-21.97Q210-124.62 210-155.47q0-30.86 21.98-52.7Q253.95-230 284.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83Zm400 0q-30.86 0-52.7-21.97Q610-124.62 610-155.47q0-30.86 21.98-52.7Q653.95-230 684.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83ZM238.67-734 344-515.33h285.33l120-218.67H238.67ZM206-800.67h589.38q22.98 0 34.97 20.84 11.98 20.83.32 41.83L693.33-490.67q-11 19.34-28.87 30.67-17.87 11.33-39.13 11.33H324l-52 96h487.33V-286H278q-43 0-63-31.83-20-31.84-.33-68.17l60.66-111.33-149.33-316H47.33V-880h121.34L206-800.67Zm138 285.34h285.33H344Z"/></svg>
+                <span class="cartCount">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="7px" viewBox="0 -960 960 960" width="15px" fill="#e3e3e3"><path d="M326.67-200v-226.67q0-40.66 29.66-70.33 29.67-29.67 70.34-29.67H580v-140H326.67V-760h246.66q40.67 0 70.34 29.67 29.66 29.66 29.66 70.33v126.67q0 40.66-29.66 70.33-29.67 29.67-70.34 29.67H420v140h253.33V-200H326.67Z"/></svg>
+                </span>
+                <input type="checkbox" hidden>
+            </label>
+
+        </nav>
+
+    </header>
+<!-- HEADER HEADER HEADER -->
+
+<!-- CART CART CART CART CART CART CART CART CART CART CART CART CART -->
+<input type="checkbox" id="cartToggle" hidden>
+
+<aside class="cart">
+  <div class="cart-header">
+    <h2>Cart</h2>
+    <label for="cartToggle" class="close-cart">&times;</label>
+  </div>
+
+  <div class="cart-content">
+    <ul>
+      <!-- ITEM 1 -->
+      <li>
+        <img src="meat.jpg" alt="Meat 1kg">
+        <div class="item-info">
+          <span class="productName">Meat 1kg</span>
+          <span class="productPrice">25 ₾ each</span>
+          <span class="cartToggle">
+            <button class="minus">−</button>
+            <span class="raodenoba">2</span>
+            <button class="plus">+</button>
+          </span>
+        </div>
+        <button class="delete-item">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M200-446.67v-66.66h560v66.66H200Z"/></svg>
+        </button>
+        <span class="item-total">50 ₾</span>
+      </li>
+
+      <hr>
+
+      <!-- ITEM 2 -->
+      <li>
+        <img src="onions.jpg" alt="Onions 30g">
+        <div class="item-info">
+          <span class="productName">Onions 30g</span>
+          <span class="productPrice">1 ₾ each</span>
+          <span class="cartToggle">
+            <button class="minus">−</button>
+            <span class="raodenoba">3</span>
+            <button class="plus">+</button>
+          </span>
+        </div>
+        <button class="delete-item">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M200-446.67v-66.66h560v66.66H200Z"/></svg>
+        </button>
+        <span class="item-total">3 ₾</span>
+      </li>
+    </ul>
+
+    <hr class="divider-short">
+
+    <p class="cart-total">Total: <strong>53 ₾</strong></p>
+
+    <hr class="divider-full">
+
+    <div class="cart-buttons">
+      <button class="buyNow">Buy Now</button>
+      <div class="secondary-buttons">
+        <button class="clearALL">Clear All</button>
+        <button class="viewCart">View Cart</button>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- CART CART CART CART CART CART CART CART CART CART CART CART CART -->
+
+
+<!-- MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU  -->
+    <nav class="mobile-menu">
+        <form action="search.html" class="searchMobile">
+            <input type="search" name="query" placeholder="Looking for..." required>
+            <button type="submit">🔍</button>
+         </form>
+        <a href="deals.html">Deals</a>
+        <a href="all-products.html">All</a>
+        <div class="categoriesMobile">
+             <span>Categories ▾</span>
+            <ul class="categoriesMobileList">
+                <li><a href="#">Dairy</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Fruit</a></li>
+                <li><a href="#">Vegetable</a></li>
+                <li><a href="#">Seasoning</a></li>
+                <li><a href="#">Beverages</a></li>
+            </ul>
+        </div>
+        <a href="#locations">📍 Location</a>
+        <a href="contact.html">💬 Contact</a>
+        <a href="registration.html">👤 Login</a>
+    </nav>
+<!-- MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU   MOBILE MENU  -->
+
+<!-- HERO HERO HERO HERO HERO -->  
+    <section class="hero">
+        <div class="mtavaritexts">
+            <h3 class="mtavarih3">Fresh, Healthy & Convenient</h3>
+            <h1 class="mtavarih1">Stock Up on Daily Essentials</h1>
+            <h2 class="mtavarih2">Best Prices for Your Favorite Food</h2>
+            <a href="filter.html" class="shopNow">Shop now</a>
+        </div>
+    </section>
+<!-- HERO HERO HERO HERO HERO -->
+
+<!-- ICON GRID ICON GRID ICON GRID -->   
+    <section class="navigationgrid">
+        <div class="mitana">
+            <div class="navigationgridicon">🚚</div>
+            <h3>Free Delivery</h3>
+            <a href="registration.html">To Your Door</a>
+        </div>
+        <div class="pickup">
+            <div class="navigationgridicon">🛒</div>
+            <h3>Local Pickup</h3>
+            <a href="#locations">Check Out Locations</a>
+        </div>
+        <div class="cs247">
+            <div class="navigationgridicon">🎧</div>
+            <h3>Customer Support Available For You</h3>
+            <a href="contact.html">Online Support 24/7</a>
+        </div>
+        <div class="appdiv">
+            <div class="navigationgridicon">📱</div>
+            <h3>Order on the Go</h3>
+            <a href="https://flappybird.org/">Download Our App</a>
+        </div>
+    </section>
+<!-- ICON GRID ICON GRID ICON GRID -->
+
+<!-- BEST DEALS    BEST DEALS   BEST DEALS    -->
+    <section>
+        <h1 class="bestDeals">Best Deals of the Day</h1>
+
+        <div class="bestDealGrid">
+            <div class="banner">New</div>
+            <img src="product1.jpg" alt="Product 1">
+            <h4>Product 1</h4>
+            <p class="price">
+                <span class="normal-price">25₾</span>
+            </p>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span class="count">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="banner">Sale</div>
+            <img src="product2.jpg" alt="Product 2">
+            <h4>Product 2</h4>
+            <p class="price">
+                <span class="normal-price">25₾</span>
+                <span class="sale-price">18₾</span>
+            </p>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span class="count">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="banner">Hot</div>
+            <img src="product3.jpg" alt="Product 3">
+            <h4>Product 3</h4>
+            <p class="price">
+                <span class="normal-price">25₾</span>
+            </p>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span class="count">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="banner">New</div>
+            <img src="product4.jpg" alt="Product 4">
+            <h4>Product 4</h4>
+            <p class="price">
+                <span class="normal-price">25₾</span>
+            </p>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span class="count">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="banner">Sale</div>
+            <img src="product5.jpg" alt="Product 5">
+            <h4>Product 5</h4>
+            <p class="price">
+                <span class="normal-price">25₾</span>
+                <span class="sale-price">18₾</span>
+            </p>
+            <div class="quantity">
+                <span class="minus">-</span>
+                <span class="count">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>        
+        <a href="sales.html" class="bestDealButton">Shop for Best Deals</a>
+    </section>
+<!-- BEST DEALS    BEST DEALS   BEST DEALS    -->
+
+
+<!-- PHOTO GRID PHOTO GRID -->
+    <section class="photoGrid">
+        <div class="wine">
+            <img src="left-image.jpg" alt="Wine">
+        </div>
+        <div class="cheese">
+            <img src="right-image.jpg" alt="Cheese">
+        </div>
+    </section>
+<!-- PHOTO GRID PHOTO GRID -->
+
+<!-- CATEGORY CATEGORIES CAREGORY CATEGORIES -->
+    <section class="categories-grid">
+        <div class="category">
+            <a href="dairy.html">
+            <div class="circle-bg"></div>
+            <img src="images/dairy.png" alt="Dairy Products">
+            </a>
+            <a href="dairy.html" class="category-name">Dairy</a>
+        </div>
+
+        <div class="category">
+            <a href="meat.html">
+            <div class="circle-bg"></div>
+            <img src="images/meat.png" alt="Meat Products">
+            </a>
+            <a href="meat.html" class="category-name">Meat</a>
+        </div>
+
+        <div class="category">
+            <a href="fruit.html">
+            <div class="circle-bg"></div>
+            <img src="images/fruit.png" alt="Fruits">
+            </a>
+            <a href="fruit.html" class="category-name">Fruit</a>
+        </div>
+
+        <div class="category">
+            <a href="vegetables.html">
+            <div class="circle-bg"></div>
+            <img src="images/vegetables.png" alt="Vegetables">
+            </a>
+            <a href="vegetables.html" class="category-name">Vegetables</a>
+        </div>
+
+        <div class="category">
+            <a href="seasoning.html">
+            <div class="circle-bg"></div>
+            <img src="images/seasoning.png" alt="Seasoning">
+            </a>
+            <a href="seasoning.html" class="category-name">Seasoning</a>
+        </div>
+
+        <div class="category">
+            <a href="beverages.html">
+            <div class="circle-bg"></div>
+            <img src="images/beverages.png" alt="Beverages">
+            </a>
+            <a href="beverages.html" class="category-name">Beverages</a>
+        </div>
+
+        <div class="category">
+            <a href="snacks.html">
+            <div class="circle-bg"></div>
+            <img src="images/snacks.png" alt="Snacks">
+            </a>
+            <a href="snacks.html" class="category-name">Snacks</a>
+        </div>
+    </section>
+<!-- CATEGORY CATEGORIES CAREGORY CATEGORIES -->
+
+<!-- APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP -->
+    <section class="app-promo">
+        <div class="app-content">
+            <div class="phone">
+            <div class="buttons">
+                <span class="volume"></span>
+                <span class="power"></span>
+            </div>
+            <img src="images/phone-screen.png" alt="App screen preview" class="phone-screen">
+            </div>
+
+            <div class="promo-text">
+            <h2>Order on the Go</h2>
+            <h1>Get the Clovers App</h1>
+            <h3>Shop easily and stay connected wherever you are.</h3>
+            <div class="store-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.dotgears.flappybird" class="playstore">Get it on Play Store</a>
+                <a href="#" class="appstore">Download on the App Store</a>
+            </div>
+            </div>
+        </div>
+    </section>
+<!-- APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP -->
+
+<!-- LCOATION LOCATION LOCATION LOCATION LOCATION LOCATION -->
+    <section class="locations">
+        <!-- <div class="Vaja" style="background-image: //rogor chavsva?//;"> -->
+            <div class="location-content">
+            <h1>Downtown Studio</h1>
+            <h2>123 Main Street, Cityville</h2>
+            <h3>Mon-Fri: 9:00 - 21:00</h3>
+            <h3>Sat-Sun: 10:00 - 16:00</h3>
+            </div>
+        </div>
+
+        <div class="Melikishvili" style="background-image: url('images/location2.jpg');">
+            <div class="location-content">
+            <h1>Uptown Branch</h1>
+            <h2>456 Park Avenue, Cityville</h2>
+            <h3>Mon-Fri: 8:30 - 22:30</h3>
+            <h3>Sat-Sun: 9:00- 15:00</h3>
+            </div>
+        </div>
+
+        <div class="Isani" style="background-image: url('images/location3.jpg');">
+            <div class="location-content">
+            <h1>Riverside Office</h1>
+            <h2>789 River Road, Cityville</h2>
+            <h3>Mon-Fri: 9:00 - 21:00</h3>
+            <h3>Sat-Sun: Closed</h3>
+            </div>
+        </div>
+    </section>
+<!-- LCOATION LOCATION LOCATION LOCATION LOCATION LOCATION -->
+
+<!-- SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE -->
+    <section class="subscribeSection">
+        <div class="subscribe-overlay">
+            <form id="subscribeForm">
+                <h3>Subscribe and get</h3>
+                <h1><span>20%</span> off</h1>
+                <h2>Of Your Next Order</h2>
+
+                <div class="subscription-options">
+                    <label>
+                    <input type="radio" name="subscriptionType" value="deals" required>
+                    Best Deals Only
+                    </label>
+                    <label>
+                    <input type="radio" name="subscriptionType" value="newsletter" required>
+                    Newsletter and Best Deals
+                    </label>
+                </div>
+
+                <div class="email-field">
+                    <input type="email" id="emailInput" required>
+                    <small class="error-message">This field is required and must include '@'</small>
+                </div>
+
+                <div class="form-footer">
+                    <label class="terms">
+                    <input type="checkbox" id="agreeCheckbox" required>
+                    I agree to the <a href="#">terms & conditions</a>.
+                    </label>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+<!-- SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE -->
+
+<!-- FOOTER FOOTER FOOTER -->
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="footer-column">
+            <h1>Get in Touch</h1>
+            <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            <h2>+995 555 012345</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tumblr"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            </div>
+
+            <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping Info</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Referral Program</a></li>
+                <li><a href="#">Affiliate</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-middle">
+            <h3>We accept the following payment methods</h3>
+            <div class="payment-icons">
+            <img src="images/payments/cash.svg" alt="Cash">
+            <img src="images/payments/mastercard.svg" alt="MasterCard">
+            <img src="images/payments/visa.svg" alt="VISA">
+            <img src="images/payments/amex.svg" alt="American Express">
+            <img src="images/payments/googlepay.svg" alt="Google Pay">
+            <img src="images/payments/applepay.svg" alt="Apple Pay">
+            <img src="images/payments/paypal.svg" alt="PayPal">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 by <span>Ana Khutashvili</span></p>
+        </div>
+    </footer>
+<!-- SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE  SUBSCRIBE -->
+</body>
+</html>

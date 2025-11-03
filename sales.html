@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Deals</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+    <header class="navigation">        
+        <h1 class="clovers"><a href="index.html">Clovers.</a></h1>        
+        <form action="search.html" class="search">
+            <input type="search" placeholder="Looking for..." required>
+            <button>🔍</button>
+        </form>
+        <nav class="menu">
+            <a href="sales.html">Deals</a>
+            <a href="all-products.html">All</a>
+            <div class="categories">
+                 <span>Categories ▾</span>
+                <ul class="hovermenu">
+                    <li><a href="#">Dairy</a></li>
+                    <li><a href="#">Meat</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fruit</a></li>
+                    <li><a href="#">Seasoning</a></li>
+                    <li><a href="#">Beverages</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="icons">
+            <a href="#locations">📍</a>
+            <a href="contact.html">💬</a>
+            <a href="registration.html">👤</a>
+            <label class="cart">
+                🛒❷
+                <input type="checkbox" hidden>
+            </label>
+        </nav>
+    </header>
+
+
+    <aside class="cart">
+        <div class="cartSatauri">
+            <h2>Cart</h2>
+            <button class="clearALL">Clear All</button>
+        </div>
+        <ul>
+            <li>
+                <span class="productName">Meat 1kg</span>
+                 <span class="cartToggle">
+                    <button class="minus">-</button>
+                    <span class="raodenoba">2</span>
+                    <button class="plus">+</button>
+                </span>
+            </li>
+            <li>
+                <span class="productName">Onions 30g</span>
+                <span class="cartToggle">
+                    <button class="minus">-</button>
+                    <span class="raodenoba">3</span>
+                    <button class="plus">+</button>
+                </span>
+            </li>
+        </ul>
+        <p>Total: 53 ₾</p>
+        <button class="buyNow">Buy now</button>
+    </aside>
+
+    <input type="checkbox" id="menuToggle" hidden>
+    <label for="menuToggle" class="menu-icon">☰</label>
+
+    <nav class="mobile-menu">
+        <form action="search.html" class="searchMobile">
+            <input type="search" name="query" placeholder="Looking for..." required>
+            <button type="submit">🔍</button>
+         </form>
+        <a href="deals.html">Deals</a>
+        <a href="all-products.html">All</a>
+        <div class="categoriesMobile">
+             <span>Categories ▾</span>
+            <ul class="categoriesMobileList">
+                <li><a href="#">Dairy</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Fruit</a></li>
+                <li><a href="#">Vegetable</a></li>
+                <li><a href="#">Seasoning</a></li>
+                <li><a href="#">Beverages</a></li>
+            </ul>
+        </div>
+        <a href="#locations">📍 Location</a>
+        <a href="contact.html">💬 Contact</a>
+        <a href="registration.html">👤 Login</a>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h3>Please note, that this page will be deleted after I learn 
+        how to change URL of the web page according to the filters used. 
+        From then on you will be redirected to All Products page with a specific filter applied via URL.
+    </h3>
+
+    <h2>Sales</h2>
+
+    <section class="sale-page-grid">
+        <div class="product dairy sale">
+                <div class="tag">New</div>
+                <img src="product1.jpg" alt="Product 1">
+                <h4>Product 1</h4>
+                <p class="price"><span class="normal-price">25₾</span></p>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span class="count">1</span>
+                    <span class="plus">+</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+        <div class="product dairy sale">
+                <div class="tag">New</div>
+                <img src="product1.jpg" alt="Product 1">
+                <h4>Product 1</h4>
+                <p class="price"><span class="normal-price">25₾</span></p>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span class="count">1</span>
+                    <span class="plus">+</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+        <div class="product dairy sale">
+                <div class="tag">New</div>
+                <img src="product1.jpg" alt="Product 1">
+                <h4>Product 1</h4>
+                <p class="price"><span class="normal-price">25₾</span></p>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span class="count">1</span>
+                    <span class="plus">+</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="footer-column">
+            <h1>Get in Touch</h1>
+            <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            <h2>+995 555 012345</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tumblr"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            </div>
+
+            <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping Info</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Referral Program</a></li>
+                <li><a href="#">Affiliate</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-middle">
+            <h3>We accept the following payment methods</h3>
+            <div class="payment-icons">
+            <img src="images/payments/cash.svg" alt="Cash">
+            <img src="images/payments/mastercard.svg" alt="MasterCard">
+            <img src="images/payments/visa.svg" alt="VISA">
+            <img src="images/payments/amex.svg" alt="American Express">
+            <img src="images/payments/googlepay.svg" alt="Google Pay">
+            <img src="images/payments/applepay.svg" alt="Apple Pay">
+            <img src="images/payments/paypal.svg" alt="PayPal">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 by <span>Ana Khutashvili</span></p>
+        </div>
+    </footer>
+</body>
+</html>
